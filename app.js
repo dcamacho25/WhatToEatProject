@@ -3,6 +3,12 @@ let selectMeal = document.getElementById("selectMeal");
 const recipeButton = document.getElementById("recipeButton");
 
 
+fetch('https://dcamacho25.github.io/WhatToEatProject/recipes.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+
+
 // Event Listener to receive time and meal
 // recipeButton.addEventListener('click', () =>{
 //     let displayTime = selectTime.options[selectTime.selectedIndex].text;
@@ -14,7 +20,7 @@ const recipeButton = document.getElementById("recipeButton");
 recipeButton.addEventListener('click', () =>{
     let article = document.getElementById('recipeContainer');
     let div = document.createElement('div');
-    div.textContent = "hello world";
+    div.textContent = "Hello World";
     const cls = ["border", "border-primary", "mt-5"];
     div.classList.add(...cls);
     article.appendChild(div);
