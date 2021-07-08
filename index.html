@@ -17,6 +17,7 @@
 
         <div class="container">
             <div class="row">
+                <!-- Card for Time Value -->
               <div class="col mb-3">
                   <article class="card bg-dark border-info">
                     <div class="card-body">
@@ -32,6 +33,7 @@
                           </div>
                   </article>
                 </div>
+                <!-- Card for Meal Value -->
                 <div class="col">
                     <article class="card bg-dark border-info">
                       <div class="card-body">
@@ -51,17 +53,23 @@
                     </article>
                 </div>
             </div>
-            
+            <!-- Button to begin functions to dispay recipes -->
             <div class="row">
                 <div class="col">
                 </div>
                 <div class="col goButton">
-                    <button onclick="displayRecipe()" class="btn-lg btn-info">GO!</button>
+                    <button id="recipeButton" class="btn-lg btn-info">GO!</button>
                 </div>
                 <div class="col">
                 </div>
             </div>
           </div>
+          <!-- Where the recipes will go -->
+        <article class="container" id="recipeContainer">
+            
+
+
+        </article>
         </main>
     </body>
     <script src="app.js"></script>
