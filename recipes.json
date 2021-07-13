@@ -1,97 +1,97 @@
 [
     {
         "title": "Grilled Steak",
-        "category": "dinner",
+        "category": "Dinner",
         "time": 1.30,
         "grill": true
     },
     {
         "title": "Maple Chicken",
-        "category": "dinner",
+        "category": "Dinner",
         "time": 1,
         "grill": false
     },
     {
         "title": "Hamburger Helper",
-        "category": "dinner",
+        "category": "Dinner",
         "time": 0.30,
         "grill": false
     },
     {
         "title": "Sausage and Cabbage",
-        "category": "dinner",
+        "category": "Dinner",
         "time": 0.45,
         "grill": false
     },
     {
         "title": "Mexican Rice",
-        "category": "sides",
+        "category": "Sides",
         "time": 0.45,
         "grill": false
     },
     {
         "title": "Candied Brussel Sprouts",
-        "category": "sides",
+        "category": "Sides",
         "time": 0.3,
         "grill": false
     },
     {
         "title": "Loaded Baked Potato",
-        "category": "sides",
+        "category": "Sides",
         "time": 1.30,
         "grill": false
     },
     {
         "title": "Papas Bravas",
-        "category": "sides",
+        "category": "Sides",
         "time": 1,
         "grill": false
     },
     {
         "title": "Breakfast Burritos",
-        "category": "breakfast",
+        "category": "Breakfast",
         "time": 0.3,
         "grill": false
     },
     {
         "title": "Tater Tot Breakfast Casserole",
-        "category": "breakfast",
+        "category": "Breakfast",
         "time": 1.30,
         "grill": false
     },
     {
         "title": "Loaded Bacon and Egg Hash Brown Muffins",
-        "category": "breakfast",
+        "category": "Breakfast",
         "time": 0.45,
         "grill": false
     },
     {
         "title": "Confetti Bacon Hashbrown Breakfast Casserole",
-        "category": "breakfast",
+        "category": "Breakfast",
         "time": 1,
         "grill": false
     },
     {
         "title": "Grilled Cheese Sandwich",
-        "category": "snack",
+        "category": "Snack",
         "time": 0.30,
         "grill": false
     },
     {
         "title": "Frisco Melt",
-        "category": "snack",
+        "category": "Snack",
         "time": 0.45,
         "grill": false
     },
     {
         "title": "Chocolate Chip Cookies",
-        "category": "snack",
+        "category": "Snack",
         "time": 1,
         "grill": false
     },
     {
         "title": "Personal Pizza",
-        "category": "snack",
+        "category": "Snack",
         "time": 1.30,
         "grill": false
     },
@@ -121,25 +121,25 @@
     },
     {
         "title": "Chicken Alfredo",
-        "category": "lunch",
+        "category": "Lunch",
         "time": 0.30,
         "grill": false
     },
     {
         "title": "Skirt Steak with Chimichurri",
-        "category": "lunch",
+        "category": "Lunch",
         "time": 0.45,
         "grill": true
     },  
     {
         "title": "Green Chili Chicken Bake",
-        "category": "lunch",
+        "category": "Lunch",
         "time": 1,
         "grill": false
     },    
     {
         "title": "Extra Crispy Spicy Fried Cauliflower",
-        "category": "lunch",
+        "category": "Lunch",
         "time": 1.30,
         "grill": false
     }
