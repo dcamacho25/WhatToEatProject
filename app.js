@@ -6,7 +6,7 @@ function filterList(recipeList) {
   let mealChoice = selectMeal.value.toLowerCase();
   let timeChoice = parseInt(selectTime.value);
   recipeList.forEach(list => {
-    if(list.category === mealChoice) {
+    if(list.time === timeChoice && list.category === mealChoice) {
       console.log(list.title);
     }
   });
