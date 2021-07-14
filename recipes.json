@@ -1,146 +1,146 @@
 [
     {
         "title": "Grilled Steak",
-        "category": "Dinner",
-        "time": 1.30,
+        "category": "dinner",
+        "time": 90,
         "grill": true
     },
     {
         "title": "Maple Chicken",
-        "category": "Dinner",
-        "time": 1,
+        "category": "dinner",
+        "time": 60,
         "grill": false
     },
     {
         "title": "Hamburger Helper",
-        "category": "Dinner",
-        "time": 0.30,
+        "category": "dinner",
+        "time": 30,
         "grill": false
     },
     {
         "title": "Sausage and Cabbage",
-        "category": "Dinner",
-        "time": 0.45,
+        "category": "dinner",
+        "time": 45,
         "grill": false
     },
     {
         "title": "Mexican Rice",
-        "category": "Sides",
-        "time": 0.45,
+        "category": "sides",
+        "time": 45,
         "grill": false
     },
     {
         "title": "Candied Brussel Sprouts",
-        "category": "Sides",
-        "time": 0.3,
+        "category": "sides",
+        "time": 30,
         "grill": false
     },
     {
         "title": "Loaded Baked Potato",
-        "category": "Sides",
-        "time": 1.30,
+        "category": "sides",
+        "time": 90,
         "grill": false
     },
     {
         "title": "Papas Bravas",
-        "category": "Sides",
-        "time": 1,
+        "category": "sides",
+        "time": 60,
         "grill": false
     },
     {
         "title": "Breakfast Burritos",
-        "category": "Breakfast",
-        "time": 0.3,
+        "category": "breakfast",
+        "time": 30,
         "grill": false
     },
     {
         "title": "Tater Tot Breakfast Casserole",
-        "category": "Breakfast",
-        "time": 1.30,
+        "category": "breakfast",
+        "time": 90,
         "grill": false
     },
     {
         "title": "Loaded Bacon and Egg Hash Brown Muffins",
-        "category": "Breakfast",
-        "time": 0.45,
+        "category": "breakfast",
+        "time": 45,
         "grill": false
     },
     {
-        "title": "Confetti Bacon Hashbrown Breakfast Casserole",
-        "category": "Breakfast",
-        "time": 1,
+        "title": "Confetti Bacon Hashbrown breakfast Casserole",
+        "category": "breakfast",
+        "time": 60,
         "grill": false
     },
     {
         "title": "Grilled Cheese Sandwich",
-        "category": "Snack",
-        "time": 0.30,
+        "category": "snack",
+        "time": 30,
         "grill": false
     },
     {
         "title": "Frisco Melt",
-        "category": "Snack",
-        "time": 0.45,
+        "category": "snack",
+        "time": 45,
         "grill": false
     },
     {
         "title": "Chocolate Chip Cookies",
-        "category": "Snack",
-        "time": 1,
+        "category": "snack",
+        "time": 60,
         "grill": false
     },
     {
         "title": "Personal Pizza",
-        "category": "Snack",
-        "time": 1.30,
+        "category": "snack",
+        "time": 90,
         "grill": false
     },
     {
         "title": "Pancakes",
         "category": "brunch",
-        "time": 0.30,
+        "time": 30,
         "grill": false
     },
     {
         "title": "Baked Donuts",
         "category": "brunch",
-        "time": 0.45,
+        "time": 45,
         "grill": false
     },
     {
         "title": "Jalapeno Popper Bagels",
         "category": "brunch",
-        "time": 1,
+        "time": 60,
         "grill": false
     },
     {
         "title": "Classic Coffee Cake",
         "category": "brunch",
-        "time": 1.30,
+        "time": 90,
         "grill": false
     },
     {
         "title": "Chicken Alfredo",
-        "category": "Lunch",
-        "time": 0.30,
+        "category": "lunch",
+        "time": 30,
         "grill": false
     },
     {
         "title": "Skirt Steak with Chimichurri",
-        "category": "Lunch",
-        "time": 0.45,
+        "category": "lunch",
+        "time": 45,
         "grill": true
     },  
     {
         "title": "Green Chili Chicken Bake",
-        "category": "Lunch",
-        "time": 1,
+        "category": "lunch",
+        "time": 60,
         "grill": false
     },    
     {
         "title": "Extra Crispy Spicy Fried Cauliflower",
-        "category": "Lunch",
-        "time": 1.30,
+        "category": "lunch",
+        "time": 90,
         "grill": false
     }
 ]

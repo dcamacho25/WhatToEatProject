@@ -3,7 +3,8 @@ let selectMeal = document.getElementById("selectMeal");
 const recipeButton = document.getElementById("recipeButton"); 
 
 function filterList(recipeList) {
-  const mealChoice = selectMeal.value.toLowerCase();
+  let mealChoice = selectMeal.value.toLowerCase();
+  let timeChoice = parseInt(selectTime.value);
   recipeList.forEach(list => {
     if(list.category === mealChoice) {
       console.log(list.title);
