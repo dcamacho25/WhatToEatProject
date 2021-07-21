@@ -8,24 +8,47 @@ function filterList(recipeList) {
   let timeChoice = parseInt(selectTime.value);
   recipeList.forEach(list => {
     if(list.time <= timeChoice && list.category === mealChoice) {
-      let div = document.createElement('div');
-      div.textContent = list.title
-      recipeContainer.appendChild(div);
-    } else if (list.time <= timeChoice){
-      let div = document.createElement('div');
-      div.textContent = list.title
-      recipeContainer.appendChild(div);
-    } else if (list.category === mealChoice) {
-      let div = document.createElement('div');
-      div.textContent = list.title
-      recipeContainer.appendChild(div);
-    }fil
+      let card = document.createElement('div');
+      let cardBody = document.createElement('div');
+      let cardTitle = document.createElement('div');
+
+      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
+      cardBody.classList.add('card-body');
+      cardTitle.classList.add('card-title');
+      cardTitle.textContent = list.title;
+      
+      recipeContainer.appendChild(card);
+      card.appendChild(cardBody);
+      cardBody.appendChild(cardTitle);
+    } else if (list.time <= timeChoice && mealChoice === 'pick your meal'){
+      let card = document.createElement('div');
+      let cardBody = document.createElement('div');
+      let cardTitle = document.createElement('div');
+
+      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
+      cardBody.classList.add('card-body');
+      cardTitle.classList.add('card-title');
+      cardTitle.textContent = list.title;
+      
+      recipeContainer.appendChild(card);
+      card.appendChild(cardBody);
+      cardBody.appendChild(cardTitle);
+    } else if (timeChoice === NaN && list.category === mealChoice) {
+      let card = document.createElement('div');
+      let cardBody = document.createElement('div');
+      let cardTitle = document.createElement('div');
+
+      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
+      cardBody.classList.add('card-body');
+      cardTitle.classList.add('card-title');
+      cardTitle.textContent = list.title;
+      
+      recipeContainer.appendChild(card);
+      card.appendChild(cardBody);
+      cardBody.appendChild(cardTitle);
+    }
   });
 };
-
-// function printTitle(title){
-//   recipeBox.innerHTML = `<h1> ${title} <h1>`
-// }
 
 // Event Listener to receive time and meal
 recipeButton.addEventListener('click', () =>{
@@ -35,6 +58,5 @@ fetch('https://dcamacho25.github.io/WhatToEatProject/recipes.json')
   .then(filterList)
 });
 
-// Add Recipe below the GO buton
 
 
