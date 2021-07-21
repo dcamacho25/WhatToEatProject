@@ -52,6 +52,7 @@ function filterList(recipeList) {
 
 // Event Listener to receive time and meal
 recipeButton.addEventListener('click', () =>{
+ recipeContainer.innerHTML = "";
 // Fetch data for recipes
 fetch('https://dcamacho25.github.io/WhatToEatProject/recipes.json')
   .then(response => response.json())
