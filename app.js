@@ -2,50 +2,36 @@ let selectTime = document.getElementById("selectTime");
 let selectMeal = document.getElementById("selectMeal");
 const recipeButton = document.getElementById("recipeButton"); 
 const recipeBox = document.getElementById('recipeContainer');
+const classesArray = ['card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2'];
+
+function createCard(title, classes){
+  let card = document.createElement('div');
+  let cardBody = document.createElement('div');
+  let cardTitle = document.createElement('div');
+
+  card.classList.add(...classes);
+  cardBody.classList.add('card-body');
+  cardTitle.classList.add('card-title');
+
+  cardTitle.textContent = title;
+  card.appendChild(cardBody);
+  cardBody.appendChild(cardTitle);
+  return card;
+
+};
 
 function filterList(recipeList) {
   let mealChoice = selectMeal.value.toLowerCase();
   let timeChoice = parseInt(selectTime.value);
   recipeList.forEach(list => {
     if(list.time <= timeChoice && list.category === mealChoice) {
-      let card = document.createElement('div');
-      let cardBody = document.createElement('div');
-      let cardTitle = document.createElement('div');
-
-      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
-      cardBody.classList.add('card-body');
-      cardTitle.classList.add('card-title');
-      cardTitle.textContent = list.title;
+      recipeContainer.appendChild(createCard(list.title, classesArray));
       
-      recipeContainer.appendChild(card);
-      card.appendChild(cardBody);
-      cardBody.appendChild(cardTitle);
     } else if (list.time <= timeChoice && mealChoice === 'pick your meal'){
-      let card = document.createElement('div');
-      let cardBody = document.createElement('div');
-      let cardTitle = document.createElement('div');
+      recipeContainer.appendChild(createCard(list.title, classesArray));
 
-      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
-      cardBody.classList.add('card-body');
-      cardTitle.classList.add('card-title');
-      cardTitle.textContent = list.title;
-      
-      recipeContainer.appendChild(card);
-      card.appendChild(cardBody);
-      cardBody.appendChild(cardTitle);
     } else if (timeChoice === NaN && list.category === mealChoice) {
-      let card = document.createElement('div');
-      let cardBody = document.createElement('div');
-      let cardTitle = document.createElement('div');
-
-      card.classList.add('card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2');
-      cardBody.classList.add('card-body');
-      cardTitle.classList.add('card-title');
-      cardTitle.textContent = list.title;
-      
-      recipeContainer.appendChild(card);
-      card.appendChild(cardBody);
-      cardBody.appendChild(cardTitle);
+      recipeContainer.appendChild(createCard(list.title, classesArray));
     }
   });
 };
