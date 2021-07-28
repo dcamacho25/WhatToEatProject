@@ -1,8 +1,16 @@
-let selectTime = document.getElementById("selectTime");
-let selectMeal = document.getElementById("selectMeal");
-const recipeButton = document.getElementById("recipeButton"); 
+let selectTime = document.getElementById('selectTime');
+let selectMeal = document.getElementById('selectMeal');
+let cupAmount = document.getElementById('cupInput');
+let tbspAmount = document.getElementById('tbspOutput');
+const recipeButton = document.getElementById('recipeButton');
 const recipeBox = document.getElementById('recipeContainer');
 const classesArray = ['card', 'border', 'border-2', 'text-start', 'rounded', 'bg-dark', 'm-2'];
+
+// dividing 1 by 0.0625 converts cups to tablespoons
+function calCupsToTbsp(){
+  let tbspInCup = cupAmount.value / 0.0625;
+  tbspAmount.innerText = tbspInCup;
+}
 
 function createCard(title, classes){
   let card = document.createElement('div');
