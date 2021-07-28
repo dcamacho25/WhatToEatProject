@@ -4,6 +4,16 @@
     justify-content: center;
 }
 
-#tbspOutput {
-    font: 400 13.3333px Arial;
+#cupInput{
+    width: 4rem;
+    flex: none;
+    margin-right: 0!important;
 }
+.input-group-text {
+    background-color: #212529;
+    color:#fff;
+}
+.form-control {
+    color:#fff;
+}
+
