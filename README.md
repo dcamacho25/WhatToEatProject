@@ -1,5 +1,5 @@
 # Meal Choice Project
-I've created this web app because I've always had the struggle of choosing what to make for dinner EVERY SINGLE DAY. It truly is a struggle. Final project for Code Louisville
+Final project for Code Louisville Javascript 1 course. There are no special tools required for this web application to work. Please simply choose the amount of time you have to cook and which meal you want to receive a list of meals that can be made. At this time I do not have a list of directions or ingredients of each recipe but that will be added on later as the project grows.
 
 ## Requirements
 - [x] Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app
